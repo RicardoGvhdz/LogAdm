@@ -1,0 +1,118 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Header Styles */
+header {
+    background-color: white; /* Fondo negro */
+    padding: 10px 20px;
+}
+
+.top-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+.menu-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.menu-buttons button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.menu-buttons button:hover {
+    background-color: #555;
+}
+
+.cart-options {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.cart-icon {
+    width: 90px;
+    height: auto;
+    cursor: pointer;
+}
+
+.options-icon {
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 15px;
+}
+
+.menu button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.menu button:hover {
+    background-color: #555;
+}
+
+/* Productos */
+.products {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.product-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.product-info h2 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.product-info p {
+    font-size: 0.9rem;
+    color: #666;
+}
+thead {
+    background-color: rgb(81, 80, 80); /* Cambia el color a gris */
+    color: white; /* Cambia el color del texto si es necesario */
+}

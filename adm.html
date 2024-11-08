@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="adm.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+    <script src="script.js" defer></script>
+    <title>DataTable Example</title>
+</head>
+<body>
+    <header>
+        <div class="top-section d-flex justify-content-between align-items-center p-3 bg-dark border-bottom border-light">
+            <div class="logo">
+                <img src="Logo.png" alt="Panam Logo" style="width: 120px;">
+            </div>
+            <div class="menu-buttons">
+                <button class="btn btn-light mx-2">Inicio</button>
+                <button class="btn btn-light mx-2">Empleados</button>
+                <button class="btn btn-light mx-2">Productos</button>
+                <button class="btn btn-light mx-2">Contacto</button>
+            </div>
+            <div class="cart-options d-flex align-items-center">
+                <img src="Carrito.png" alt="Carrito de Compras" class="cart-icon" style="width: 40px; margin-right: 15px;">
+            </div>
+        </div>
+    </header>
+    <table id="example" class="display" style="width:100%">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Posición</th>
+                <th>Sucursal</th>
+                <th>Edad</th>
+                <th>Fecha Nac.</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr></tr>
+                <td>Luisa Fernández</td>
+                <td>Cajera</td>
+                <td>Puebla</td>
+                <td>25</td>
+                <td>18/06/1999</td>
+            </tr>
+            <tr>
+                <td>María Gómez</td>
+                <td>Gerente de Tienda</td>
+                <td>Guadalajara</td>
+                <td>35</td>
+                <td>22/09/1988</td>
+            </tr>
+            <tr>
+                <td>Pedro Sánchez</td>
+                <td>Encargado de Inventario</td>
+                <td>Monterrey</td>
+                <td>40</td>
+                <td>03/11/1983</td>
+            </tr>
+
+            <tr>
+                <td>Juan Pérez</td>
+                <td>Vendedor</td>
+                <td>Ciudad de México</td>
+                <td>28</td>
+                <td>15/03/1996</td>
+            </tr>
+            <tr>
+                <td>Roberto Martínez</td>
+                <td>Jefe de Ventas</td>
+                <td>León</td>
+                <td>45</td>
+                <td>08/01/1979</td>
+            </tr>
+            <tr>
+                <td>Carla López</td>
+                <td>Atención al Cliente</td>
+                <td>Querétaro</td>
+                <td>32</td>
+                <td>12/07/1992</td>
+            </tr>
+            <tr>
+                <td>David Hernández</td>
+                <td>Supervisor de Sucursal</td>
+                <td>Ciudad de México</td>
+                <td>38</td>
+                <td>25/12/1985</td>
+            </tr>
+ 
+            <tr>
+                <td>Miguel Torres</td>
+                <td>Almacenista</td>
+                <td>Guadalajara</td>
+                <td>24</td>
+                <td>17/08/2000</td>
+            </tr>
+            <tr>
+                <td>Sofía Aguilar</td>
+                <td>Vendedora en Línea</td>
+                <td>Monterrey</td>
+                <td>27</td>
+                <td>21/04/1997</td>
+            </tr>
+            <tr>
+                <td>Laura Ramírez</td>
+                <td>Encargada de Marketing</td>
+                <td>Tijuana</td>
+                <td>29</td>
+                <td>05/02/1995</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
